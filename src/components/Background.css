@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght,YTLC@0,6..12,200..1000,540;1,6..12,200..1000,540&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+.animated-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    inset: 0;
+    z-index: 0; /* ou -1 dependendo da ordem desejada */
+    background: #1f1f1f; /* ou #272727, escolha uma */
+    overflow: hidden;
+}
+
+.grid {
+    position: fixed;
+    top: 11%;
+    left: 14%;
+    width: 239px;
+    height: 225px;
+    z-index: 0;
+    background-image: url('../assets/Camada_1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background-container {
+    position: relative;
+    width: 1156px;
+    height: 537px;
+    background-color: black;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 37px 0px 39px 0px;
+}
+
+.logo {
+    position: relative;
+    width: 384px;
+    height: 82px;
+    background-image: url('../assets/perfil_github_logo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    margin-top: 39px;
+    margin-bottom: 27px;
+}
+
+.orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(120px);
+    opacity: 0.4;
+}
+
+/* Orb esquerda */
+.orb-left {
+    width: 350px;
+    height: 350px;
+    background: rgba(0, 123, 255, 0.6);
+    top: -100px;
+    left: -100px;
+    animation: moveLeftOrb 20s ease-in-out infinite normal;
+}
+
+/* Orb direita */
+.orb-right {
+    width: 400px;
+    height: 400px;
+    background: rgba(0, 102, 255, 0.5);
+    bottom: -120px;
+    right: -120px;
+    animation: moveRightOrb 20s ease-in-out infinite normal;
+}
+
+/* Animação da orbe esquerda */
+@keyframes moveLeftOrb {
+    0% {
+        transform: translate(0, 0) scale(1);
+    }
+    25% {
+        transform: translate(0, 100vh) scale(1.1);
+    }
+    50% {
+        transform: translate(100vw, 100vh) scale(1.1);
+    }
+    75% {
+        transform: translate(100vw, 0);
+    }
+    100% {
+        transform: translate(0, 0) scale(1);
+    }
+}
+
+/* Animação da orbe direita */
+@keyframes moveRightOrb {
+    0% {
+        transform: translate(0, 0) scale(1);
+    }
+    25% {
+        transform: translate(0, -100vh) scale(1.1);
+    }
+    50% {
+        transform: translate(-100vw, -100vh) scale(1.1);
+    }
+    75% {
+        transform: translate(-100vw, 0);
+    }
+    100% {
+        transform: translate(0, 0) scale(1);
+    }
+}
