@@ -1,4 +1,4 @@
-### 2. [Desafio React](https://desafio-react-ruddy.vercel.app/) 
+###[Desafio React](https://desafio-react-ruddy.vercel.app/) 
 > Aplicação desenvolvida com ReactJS, com foco em componentes reutilizáveis e estilização modular. O projeto visa apresentar fluência na biblioteca React e conceitos modernos de desenvolvimento web.
 
 **Tecnologias:**  
