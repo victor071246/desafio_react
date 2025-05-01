@@ -1,12 +1,12 @@
-# React + Vite
+### 2. [Desafio React](https://desafio-react-ruddy.vercel.app/) 
+> Aplicação desenvolvida com ReactJS, com foco em componentes reutilizáveis e estilização modular. O projeto visa apresentar fluência na biblioteca React e conceitos modernos de desenvolvimento web.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Tecnologias:**  
+- ReactJS  
+- CSS Modules 
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Funcionalidades:**
+- Componentização
+- Navegação entre páginas
+- Estilo modularizado
+- Animação de carregamento enquanto a API é carregada
